@@ -9,11 +9,6 @@ patch(Order.prototype,{
     order_line.forEach(element =>{
         sum += element.price
     })
-    if(sum > 1000){
-        console.log("check your limit")
-    }
-    else{
-        super.pay()
-    }
+    console.log("line",order_line)
     }
 })

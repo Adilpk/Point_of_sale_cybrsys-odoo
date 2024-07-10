@@ -5,11 +5,12 @@ import { patch } from "@web/core/utils/patch";
 console.log("pos js worked")
 
 patch(Orderline.prototype, {
-    getDisplayData() {
+    getDisplayData(){
         return {
             ...super.getDisplayData(),
             brand: this.get_product().brand,
         };
+
     },
 });
 
