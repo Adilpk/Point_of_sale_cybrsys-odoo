@@ -13,11 +13,8 @@
     'application': True,
     'assets': {
        'point_of_sale._assets_pos': [
-           # 'pos_product_brand/static/src/js/pos.js',
-           # 'pos_product_brand/static/src/js/pos_order.js',
-           # 'pos_product_brand/static/src/xml/brand_order_line.xml',
-           'pos_product_brand/static/src/js/pos_category_limit.js',
-           'pos_product_brand/static/src/app/category_limit_popup.xml',
+           'pos_brand/static/src/js/pos.js',
+           'pos_brand/static/src/xml/brand_order_line.xml',
        ],
     },
 
